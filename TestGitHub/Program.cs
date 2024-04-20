@@ -4,6 +4,15 @@ class TestGit
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, мир!");
+        Console.WriteLine("Введите приветствие");
+        string hello = Console.ReadLine();
+
+        Print(hello);
+
+
+        void Print(string s)
+        { 
+            Console.WriteLine(s); 
+        }
     }
 }
