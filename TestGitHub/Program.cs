@@ -6,6 +6,7 @@ class TestGit
     {
         Console.WriteLine("Введите приветствие");
         string hello = Console.ReadLine();
+        Console.WriteLine("");
 
         Print(hello);
 
